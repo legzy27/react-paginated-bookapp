@@ -28,6 +28,5 @@ describe('Book', () => {
     expect(wrapper.find('CardText').text()).toBe(singleBook.book_author.join(''));
     expect(wrapper.find('.publication-year').text()).toBe(String(singleBook.book_publication_year));
     expect(wrapper.find('.publication-country').text()).toBe(String(singleBook.book_publication_country));
-
   });
 });
