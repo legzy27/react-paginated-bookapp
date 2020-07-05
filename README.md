@@ -11,8 +11,8 @@ colour is `#1D7874`
 
 
 ## Run the book-app on localhost:3000
-- Clone repo
-- cd in book-app
+- Clone repository
+- cd into react-bookapp/book-app
 - npm install
 - npm start - start the localhost:3000
 - npm test - run the unit test
