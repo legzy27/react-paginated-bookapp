@@ -1,11 +1,11 @@
-# React-bookapp 
+## React-Paginated-Bookapp 
 
 Paginated book-app is a front end application developed using `create-react-app`, `react-bootstrap` ,`redux` and `webpack`.
 
 The app queries `http://nyx.vima.ekt.gr:3000/api/books`  endpoint with a `POST` request. The `response` of the request received and display results to the user. 
 
 
-## Installation and Stepup
+## Installation and Setup
 
 To install and setup the app follow the below steps:
 
