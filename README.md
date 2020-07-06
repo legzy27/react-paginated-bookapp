@@ -1,4 +1,4 @@
-# React-bookapp 
+## React-Paginated-Bookapp
 
 Paginated book-app is a front end application developed using `create-react-app`, `react-bootstrap` ,`redux`,`redux-saga` and `webpack`.
 
