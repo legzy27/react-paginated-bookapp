@@ -13,15 +13,30 @@ const Book = ({ item }) => (
           ))}
         </Card.Text>
         <div>
-          <strong>
-            Year:
-          </strong>
+          <strong>Publication Year:</strong>
           <span className="publication-year">{item.book_publication_year}</span>
           <span> - </span>
-          <strong>
-            Country:
-          </strong>
-          <span className="publication-country">{item.book_publication_country}</span>
+          <strong>Publication Country:</strong>
+          <span className="publication-country">
+            {item.book_publication_country}
+          </span>
+          <span>
+            <span> - </span>
+            <strong>Publication City:</strong>
+            <span className="publication-city">
+              {item.book_publication_city}
+            </span>
+            <span> - </span>
+            <strong>Book Author:</strong>
+            <span className="book-author">
+              {item.book_author}
+            </span>
+            <span> - </span>
+            <strong>Book Pages:</strong>
+            <span className="book-pages">
+              {item.book_pages}
+            </span>
+          </span>
         </div>
       </Card.Body>
     </Card>

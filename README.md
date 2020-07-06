@@ -1,18 +1,20 @@
-# react-bookapp
+# React-bookapp 
 
-## Requirement
-1. Using React, build a webapp that queries this paginated endpoint and prints out the results as a list
-2. The app should be paginated (page selector) with the pagination reflected in the url (so when the page is
-refreshed the same resultset is shown)
-3. You can use React Bootstrap as a components library for simplicity
-4. Compile your own Bootstrap theme (less/sass) with the only difference to the original that the primary
-colour is `#1D7874`
-5. Host your code on github or similar, put all the code in a Pull Request against the (probably) empty repo
+Paginated book-app is a front end application developed using `create-react-app`, `react-bootstrap` ,`redux` and `webpack`.
+
+The app queries `http://nyx.vima.ekt.gr:3000/api/books`  endpoint with a `POST` request. The `response` of the request received and display results to the user. 
 
 
-## Run the book-app on localhost:3000
-- Clone repo
-- cd in book-app
-- npm install
-- npm start - start the localhost:3000
-- npm test - run the unit test
+## Installation and Stepup
+
+To install and setup the app follow the below steps:
+
+1. Clone repository https://github.com/legzy27/react-bookapp
+   
+2. Once you download the repository cd into react-bookapp/book-app and use any command line tool.
+
+3. Install necessary dependencies with `npm install` before the app can run locally.
+   
+4. To launch the app locally use the command `npm start`. this will launch the app on localhost:3000, now go the browser to view the app
+   
+5. Unit test is included in the ptroject to test UI components run npm test
