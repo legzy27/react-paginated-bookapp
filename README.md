@@ -4,7 +4,9 @@ Paginated book-app is a front end application developed using `create-react-app`
 
 The app queries `http://nyx.vima.ekt.gr:3000/api/books`  endpoint with a `POST` request. The `response` of the request received and display results to the user. 
 
-[!(https://www.screencast.com/t/IdEoLCsJr2us)]
+<p align="center">
+  <img width="460" height="300" src="https://www.screencast.com/t/IdEoLCsJr2us">
+</p>
 
 ## Installation and Setup
 
