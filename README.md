@@ -16,6 +16,6 @@ To install and setup the app follow the below steps:
 
 3. Install necessary dependencies with `npm install` before the app can run locally.
    
-4. To launch the app locally use the command `npm start`. this will launch the app on localhost:3000, now go the browser to view the app
+4. To launch the app locally use the command `npm start`. this will launch the app on localhost:3000, now go the browser to view the app,navigate through the pages and do a search.
    
 5. Unit test is included in the ptroject to test UI components run npm test
